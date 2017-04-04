@@ -13,3 +13,11 @@ npm install --save redux-devtools-extension
 
 #2. React Router v.4 and Index Page
 npm install --save react-router@4.0.0-alpha.5
+
+#3. AJAX Request and Express.js Server
+
+cd backend
+npm init -y
+npm install --save express mongodb
+npm install --save-dev nodemon babel-cli babel-preset-es2015
+touch .babelrc
