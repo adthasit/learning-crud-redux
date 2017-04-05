@@ -22,9 +22,23 @@ npm install --save express mongodb
 npm install --save-dev nodemon babel-cli babel-preset-es2015
 touch .babelrc
 
+#mongodb
+cd crudfirst
+mongod --dbpath .
+
+cd backend
+mongo
+use crudwithredux
+db.games.insert({ title: 'Agricola' })
+
 #4. Form And Client-Side-Validation
 
 npm install --save classnames@2.2.5
 
 
 #5. Server-Side Validation Andd Record Creation (Part 1)
+
+#6. Server-Side Validation Andd Record Creation (Part 2)
+
+cd backend
+npm install --save body-parser@1.15.2
